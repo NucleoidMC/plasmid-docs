@@ -4,5 +4,4 @@ site_author: NucleoidMC
 theme: readthedocs
 nav:
     - Home: index.md
-    - 'Getting Started':
-      - 'Full Setup Guide': 'full-setup.md'
+    - 'Full Setup Guide': 'full-setup.md'
