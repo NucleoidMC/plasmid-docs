@@ -1,3 +1,6 @@
 site_name: Plasmid
+site_description: Plasmid is a library for creating server-side minigames with Fabric.
+site_author: NucleoidMC
+
 nav:
     - Home: index.md
