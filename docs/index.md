@@ -1,4 +1,3 @@
-# Plasmid
 Plasmid is a library for creating server-side minigames with Fabric.
 Plasmid intends to do all the boring work relating to minigame implementation, to rather allow focus effort on just the game itself.
 
