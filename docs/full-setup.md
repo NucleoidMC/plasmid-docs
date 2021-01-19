@@ -1,4 +1,4 @@
-This tutorial assumes you are starting with a blank Fabric workspace. If you would like to get up and running quickly with a basic game setup, clone the [plasmid-starter](https://github.com/NucleoidMC/plasmid-starter) repository, run `init.py`, and then delete `.git`, `README.md`, and `init.py`. Alternatively, if you are looking for examples of existing implemented games, take a look through the [Nucleoid Organisation](https://github.com/NucleoidMC) repositories.
+This tutorial assumes you are starting with a blank Fabric workspace. If you would like to get up and running quickly with a basic game setup instead, clone the [plasmid-starter](https://github.com/NucleoidMC/plasmid-starter) repository, run `init.py`, and then delete `.git`, `README.md`, and `init.py`. Alternatively, if you are looking for examples of existing implemented games, take a look through the [Nucleoid Organisation](https://github.com/NucleoidMC) repositories.
 
 ### Adding to Gradle
 Assuming you [already have a Fabric workspace set up](https://fabricmc.net/wiki/tutorial:setup), the first step to setting up Plasmid will be adding it to your gradle buildscript. You will need to add the maven repository as well as the plasmid dependency. `PLASMID_VERSION` should be replaced with the latest version from [Jenkins](https://ci.gegy.dev/job/plasmid/).
@@ -208,7 +208,7 @@ public final class ExampleGame {
 }
 ```
 
-#### Testing the game!
+#### Testing the game
 Once everything compiles, we can finally launch up Minecraft. If our `GameType` is all correctly set up and game config JSON in place, once opening a world, we should be able to start our game by running: `/game open <id>`. (Remember, this is referencing the name of the JSON file and not the GameType!)
 
 So in our case: `/game open plasmid_example:hello_world_example`
